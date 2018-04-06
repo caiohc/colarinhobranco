@@ -1,0 +1,57 @@
+.commentaries h1 {
+	font-size: 30px;	
+	text-align: center;
+	padding: 15px 0;
+}
+
+.comment {
+	padding: 10px 0;
+	line-height: 1.5;
+}
+
+.comment h2 {
+	font-size: 25px;	
+}
+
+form {
+	font-size: 120%;
+	padding: 20px;
+}
+
+label[for] {
+    display: block;    
+}
+
+label[for] ~ label[for] {
+	margin-top: 10px;
+}
+
+input {
+	width: auto;
+}
+
+textarea {
+	width: 100%;	
+}
+
+input, textarea {
+	font-family: inherit;
+	font-size: 110%;
+	padding: .25em .5em;
+	box-sizing: border-box;
+}
+
+button {
+	float: right;
+	border: 0;
+    padding: .5em 1em;
+    background-color: rgb(220, 150, 0);
+    color: #FFF;
+    font-family: inherit;
+    font-size: inherit;
+    margin-top: 1em;
+}
+
+button:hover, button:focus {
+    background-color: rgb(250, 190, 0);
+}
